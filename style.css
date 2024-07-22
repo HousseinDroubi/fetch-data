@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.user-section {
+    margin: 10px;
+    width: 260px;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.user-section h3 {
+    font-size: 12px;
+}
+
+#all_users_section {
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.j-c-c {
+    justify-content: center;
+}
+
+.a-i-c {
+    align-items: center;
+}
+
+.btn-delete {
+    margin: 5px;
+    width: 90px;
+    height: 27px;
+    background-color: rgb(215, 107, 107);
+    color: white;
+    font-size: 18px;
+    border-radius: 7px;
+    border: none;
+    transition: all 100ms ease-in-out;
+}
+
+.btn-delete:hover {
+    transform: scale(110%);
+}
